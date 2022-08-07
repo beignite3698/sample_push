@@ -6,6 +6,9 @@ public class armstrong_no {
 	int no1 = no;
 	int count = 0;
 	
+	
+	System.out.println("this is change file");
+	
 	check(no,count,no1);
 	if(sum==no) {
 		System.out.println("armstrong");
@@ -46,5 +49,7 @@ public class armstrong_no {
 	public static void armstrong(int temp){		
 		sum = sum+temp;
 		}
+	
+	
 	
 }
